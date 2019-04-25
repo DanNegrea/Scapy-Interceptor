@@ -20,7 +20,7 @@ iptables -I OUTPUT -d 93.184.216.255 -j NFQUEUE --queue-num 2
 
 #### Call Scapy-Interceptor
 '''
-python3 scapy-interceptor-txt.py
+python3 Scapy-Interceptor-txt.py
 '''
 
 #### Ping the target
@@ -51,7 +51,7 @@ Was tested on Kali
 #### Netfilterqueue 
 [https://pypi.org/project/NetfilterQueue/](https://pypi.org/project/NetfilterQueue/)
 
-In Python 3.7 musst be [buid manually](https://github.com/kti/python-netfilterqueue/issues/48).
+In Python 3.7 must be [buid manually](https://github.com/kti/python-netfilterqueue/issues/48).
 These steps worked for me:
 ```
 pip3 install Cython
