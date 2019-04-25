@@ -19,9 +19,9 @@ iptables -I OUTPUT -d 93.184.216.255 -j NFQUEUE --queue-num 2
 '''
 
 #### Call Scapy-Interceptor
-'''
+```
 python3 Scapy-Interceptor-txt.py
-'''
+```
 
 #### Ping the target
 ... in a new terminal.
